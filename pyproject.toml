@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "atk-training-nitesh-fastapipsq"
+version = "0.1.0"
+description = ""
+authors = ["Nitesh <nitesh@aganitha.ai>"]
+readme = "README.md"
+packages = [{include = "atk_training_nitesh_fastapipsq"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.88.0"
+typer = "^0.7.0"
+db-sqlite3 = "^0.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
