@@ -9,6 +9,7 @@ __pycache__/
 
 # C extensions
 *.so
+blog.db
 
 # Distribution / packaging
 .Python
